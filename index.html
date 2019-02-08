@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ChallengeOne</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <ul>
+                    <li><h1>HTML Basics</h1></li>
+                    <li><a class="active" href="#Getting started">Getting started</a></li>
+                    <li><a href="#Headings">Headings</a></li>
+                    <li><a href="#Paragraphs">Paragraphs</a></li>
+                    <li><a href="#Links">Links</a></li>
+                    <li><a href="#Images">Images</a></li>
+                    <li><a href="#Lists">Lists</a></li>
+                </ul>
+            </div>
+            
+        </header>
+
+        <div id="main-doc">
+            <div class="main-section">
+                <h1 id="Getting started">Getting started</h1>
+                <p>Let's get started with HTML! The first rule of writing HTML code is to surround text with tags.
+Tags give a meaning, such as a heading or a link, to a text.</p>
+<code> &lt;h1&gt; Hello world &lt;h1/&gt;</code>
+<p>Most HTML elements require a pair of tags, an opening tag and a closing tag, with text inserted in between.
+When using closing tags, make sure to put /.</p>
+            </div>
+
+            <div class="main-section">
+                <h1 id="Headings">Headings</h1>
+                <p>Heading tags are used to format heading elements.
+These tags range from &lt;h1&gt; to &lt;h6&gt;, &lt;h1&gt; being the largest and &lt;h6> being the smallest (※ h stands for heading.).</p>
+                <pre>
+                    <code>
+                        &lt;h1&gt; This is h1 &lt;/h1&gt;
+                        &lt;h2&gt; This is h2 &lt;/h2&gt;
+                        &lt;h3&gt; This is h3 &lt;/h3&gt;
+                        &lt;h4&gt; This is h4 &lt;/h4&gt;
+                        &lt;h5&gt; This is h5 &lt;/h5&gt;
+                        &lt;h6&gt; This is h1 &lt;/h6&gt;
+                    </code>
+                </pre>
+
+                <p>The output will being:</p>
+                <h1>This is h1</h1>
+                <h2>This is h2</h2>
+                <h3>This is h3</h3>
+                <h4>This is h4</h4>
+                <h5>This is h1</h5>
+                <h6>This is h1</h6>
+            </div>
+            <div class="main-section">
+
+                <h1 id="Paragraphs">Paragraphs</h1>
+                <p>The &lt;p&gt; tag defines a paragraph (※ p stands for paragraph).
+The text enclosed by tags such as &lt;h2&gt; and &lt;p&gt; begin on a new line.</p>
+<p>For text that is not a heading we use the &lt;p&gt; tag.</p>
+<code>&lt;p&gt; This is a paragraph &lt;/p&gt;</code>
+            </div>
+
+            <div class="main-section">
+                <h1 id="Links">Links</h1>
+                <p>You can easily create a link with the &lt;a&gt; tag (※ a stands for anchor).
+The text in &lt;a&gt; tags is displayed in the browser as a link text.<code> &lt;a&gt;Link displayed in browser&lt;/a&gt;</code></p>
+<p>Every link has a destination.
+So, in order to make any link work, you'll need to specify a destination URL in the  &lt;a&gt; element by adding the href attribute.
+As shown below, the destination URL goes in the url part of <code> &lt;a href="url"&gt;</code></p>
+<p>In HTML, you can specify an attribute like href in the opening tag (※ see the image on the left).
+Always put attribute values in double quotes (").</p>
+<code>&lt;a href="https://google.com &gt; Google &lt;/a&gt;</code>
+            </div>
+
+            <div class="main-section">
+                <h1 id="Images">Images</h1>
+                <p>The &lt;img&gt; tag is used to display an image.
+We can set the image by specifying the url in the src attribute as follows: &lt;img src="url"&gt;.
+Note that &lt;img&gt; tags don't require closing tags as they don't enclose any text.</p>
+<code>&lt;img src="https://progate.com/images/family.jpg"&gt;</code>
+            </div>
+            <div class="main-section">
+                <h1 id="Lists">Lists</h1>
+                <p>You can create a list item by enclosing the text with &lt;li&gt; tags.
+The type of list items change depending on the tag you use.
+With the &lt;ul&gt; tag, you can create bulleted lists.
+When elements are "nested" like this, the enclosing element becomes the parent and the enclosed elements become its children.</p>
+<p>For nested elements, it's a good practice to align code with indentation.
+Although not required, indentation makes it easier to see the parent-child relationship especially when your code becomes complicated
+(※ to indent, press the "tab" key at the beginning of a line).</p>
+<pre>
+<code>&lt;ul&gt; 
+    &lt;li&gt;HTML &lt;/li&gt; 
+    &lt;li&gt;CSS &lt;/li&gt;
+    &lt;li&gt;JAVASCRIPT &lt;/li&gt;
+    &lt;li&gt;JQUERY &lt;/li&gt;
+    &lt;li&gt;PYTHON &lt;/li&gt;
+&lt;/ul&gt;
+</code>
+</pre>
+<p>The output will be:</p>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JAVASCRIPT</li>
+    <li>JQUERY</li>
+    <li>PYTHON</li>
+</ul>
+</code>
+</pre>
+            </div>
+        </div>
+    </body>
+</html>
