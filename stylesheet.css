@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+.navbar{
+    float: left;
+}
+.navbar h1{
+    padding: 8px 16px;
+
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    
+}
+
+.navbar li{
+    border-bottom: 1px solid darkgray;
+}
+li a{
+    text-decoration: none;
+    font-size: 24px;
+    color:black;
+    display: block;
+    padding: 8px 16px;
+}
+
+li a:hover {
+  background-color: #16A085;
+  color: white;
+}
+#main-doc{
+    margin-left: 20%;
+    padding: 4px 24px;
+    border-right: 8px solid darkgray;
+}
+.main-section{
+    margin-bottom: 60px;
+}
+.main-section h1{
+    color: #354551;
+}
+.main-section li{
+    margin-bottom:3px; 
+}
+
+.main-section p{
+    font-size: 22px;
+    
+}
+code{
+    font-size: 16px;
+    background-color: #EAEDED;
+}
+
+
